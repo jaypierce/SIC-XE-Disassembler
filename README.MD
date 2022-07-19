@@ -7,26 +7,23 @@ Name: Jaylan Pierce
 ### Developed by Jaylan Pierce
 
 #### Synopsis:
-    Designed and implemented a dissamebler for the XE
-    variant of the SIC/XE architecture. The
-    disassembler is able to open a given object code
-    file (.obj) along with a symbol file (.sym) and
-    disassembles the object coe and prints to an
-    output file (out.lst).
+    Designed and implemented a dissamebler for the XE variant of the SIC/XE architecture. The disassembler is able to 
+    open a given object code file (.obj along with a symbol file (.sym) and
+    disassembles the object code 
+    and prints to an output file (out.lst).
 
 #### Files Included:
+    **README.md**:
+        A README file describing the program and detailing its files.
 
-**README.md**:
-    A README file describing the program and detailing its files.
+    **dissem.cpp**:
+        File contains algorithm that opens a SIC/XE object file and symbol file. The object code is disassembled and generates SIC/XE source and listing files.
 
-**dissem.cpp**:
-    File contains algorithm that opens a SIC/XE object file and symbol file. The object code is disassembled and generates SIC/XE source and listing files.
+    **dissem.hpp**:
+        Declares and explains functions implemented in dissem.cpp
 
-**dissem.hpp**:
-    Declares and explains functions implemented in dissem.cpp
-
-**Makefile**:
-    Creates a compiled version of dissem.cpp
+    **Makefile**:
+        Creates a compiled version of dissem.cpp
 
 #### Compilation Instructions:
 **Make**:
