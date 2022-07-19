@@ -7,10 +7,9 @@ Name: Jaylan Pierce
 ### Developed by Jaylan Pierce
 
 #### Synopsis:
-    Designed and implemented a dissamebler for the XE variant of the SIC/XE architecture. The disassembler is able to 
-    open a given object code file (.obj along with a symbol file (.sym) and
-    disassembles the object code 
-    and prints to an output file (out.lst).
+    Designed and implemented a dissamebler for the XE variant of the SIC/XE architecture. The disassembler 
+    is able to open a given object code file (.obj along with a symbol file (.sym) and disassembles the object 
+    code and prints to an output file (out.lst).
 
 #### Files Included:
     **README.md**:
